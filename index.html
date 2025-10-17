@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türk Hack Team - Black/Red Professional 2025</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section with Background Image -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Türk Hack Team</h1>
+            <p class="hero-subtitle">
+                Roadmap ve Ekip tanıtımı.<br>
+                Siber güvenlik dünyasında uzmanlaşmak için ihtiyacınız olan tüm kaynaklar ve rehberler.
+            </p>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section class="teams-section" id="teams">
+        <div class="container">
+            <h2 class="section-title">Ekiplerimiz</h2>
+            <div class="teams-grid">
+                <!-- Red Team -->
+                <div class="team-card">
+                    <i class="team-icon red-team fas fa-user-secret"></i>
+                    <h3 class="team-name">Red Team</h3>
+                    <p class="team-desc">
+                        Offensive security uzmanları. Sistem penetrasyon testleri ve güvenlik açığı analizleri.
+                    </p>
+                    <ul class="team-features">
+                        <li>Penetrasyon Testi</li>
+                        <li>Zafiyet Analizi</li>
+                        <li>Sosyal Mühendislik</li>
+                        <li>Red Team Operasyonları</li>
+                    </ul>
+                    <a href="#" class="team-btn" onclick="showTeamDetail('red')">Detayları Gör</a>
+                </div>
+
+                <!-- Blue Team -->
+                <div class="team-card">
+                    <i class="team-icon blue-team fas fa-shield-alt"></i>
+                    <h3 class="team-name">Blue Team</h3>
+                    <p class="team-desc">
+                        Defensive security uzmanları. Sistem savunması ve güvenlik operasyonları.
+                    </p>
+                    <ul class="team-features">
+                        <li>SIEM Yönetimi</li>
+                        <li>Zararlı Yazılım Analizi</li>
+                        <li>Olay Müdahalesi</li>
+                        <li>Tehdit Avcılığı</li>
+                    </ul>
+                    <a href="#" class="team-btn" onclick="showTeamDetail('blue')">Detayları Gör</a>
+                </div>
+
+                <!-- Design Team -->
+                <div class="team-card">
+                    <i class="team-icon design-team fas fa-palette"></i>
+                    <h3 class="team-name">Tasarım Ekibi</h3>
+                    <p class="team-desc">
+                        UI/UX tasarımcıları ve front-end geliştiriciler. Modern arayüz tasarımları.
+                    </p>
+                    <ul class="team-features">
+                        <li>UI/UX Tasarım</li>
+                        <li>Grafik Tasarım</li>
+                        <li>Front-end Geliştirme</li>
+                        <li>Kullanıcı Deneyimi</li>
+                    </ul>
+                    <a href="#" class="team-btn" onclick="showTeamDetail('design')">Detayları Gör</a>
+                </div>
+
+                <!-- Ar-Ge -->
+                <div class="team-card">
+                    <i class="team-icon rnd-team fas fa-flask"></i>
+                    <h3 class="team-name">Ar-Ge Ekibi</h3>
+                    <p class="team-desc">
+                        Araştırma ve geliştirme uzmanları. Yeni teknolojiler ve inovasyon projeleri.
+                    </p>
+                    <ul class="team-features">
+                        <li>Teknoloji Araştırması</li>
+                        <li>Prototip Geliştirme</li>
+                        <li>Proof-of-Concept</li>
+                        <li>Tool Geliştirme</li>
+                    </ul>
+                    <a href="#" class="team-btn" onclick="showTeamDetail('rnd')">Detayları Gör</a>
+                </div>
+
+                <!-- Moderation Team -->
+                <div class="team-card">
+                    <i class="team-icon mod-team fas fa-gavel"></i>
+                    <h3 class="team-name">Moderasyon Ekibi</h3>
+                    <p class="team-desc">
+                        Topluluk yöneticileri ve moderatörler. Topluluk düzeni ve üye deneyimi.
+                    </p>
+                    <ul class="team-features">
+                        <li>Topluluk Yönetimi</li>
+                        <li>İçerik Moderasyonu</li>
+                        <li>Üye Desteği</li>
+                        <li>Kural Uygulama</li>
+                    </ul>
+                    <a href="#" class="team-btn" onclick="showTeamDetail('mod')">Detayları Gör</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section">
+        <div class="container">
+            <h2 class="section-title">Kaynaklar & Rehberler</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <i class="resource-icon fas fa-graduation-cap"></i>
+                    <h3 class="resource-title">Eğitim Setleri</h3>
+                    <p class="resource-desc">
+                        THT Cyber Star Hacking eğitim seti ve diğer profesyonel kaynaklar.
+                    </p>
+                    <a href="https://www.turkhackteam.org/konular/tht-cyber-star-hacking-hacker-egitim-seti-turkiyede-ilk-ucretsiz.1960243/" target="_blank" class="resource-link">
+                        Erişim Sağla <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="resource-card">
+                    <i class="resource-icon fas fa-book"></i>
+                    <h3 class="resource-title">Dokümantasyon</h3>
+                    <p class="resource-desc">
+                        Kapsamlı hacktricks ve güvenlik dokümantasyonu.
+                    </p>
+                    <a href="https://book.hacktricks.wiki/en/index.html" target="_blank" class="resource-link">
+                        İncele <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="resource-card">
+                    <i class="resource-icon fas fa-tools"></i>
+                    <h3 class="resource-title">Araçlar & Framework'ler</h3>
+                    <p class="resource-desc">
+                        PortSwigger ve diğer profesyonel güvenlik araçları.
+                    </p>
+                    <a href="https://portswigger.net/web-security" target="_blank" class="resource-link">
+                        Keşfet <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forum Rules Section -->
+    <section class="rules-section">
+        <div class="container">
+            <h2 class="section-title">Topluluk Kuralları</h2>
+            <div class="rules-container">
+                <div class="rules-grid">
+                    <div class="rule-item">
+                        <i class="rule-icon fas fa-handshake"></i>
+                        <h3 class="rule-title">Saygı & Nezaket</h3>
+                        <p class="rule-desc">Tüm üyelere saygılı ve nazik davranın</p>
+                    </div>
+                    <div class="rule-item">
+                        <i class="rule-icon fas fa-shield-alt"></i>
+                        <h3 class="rule-title">Güvenlik</h3>
+                        <p class="rule-desc">Güvenlik önlemlerine uyun</p>
+                    </div>
+                    <div class="rule-item">
+                        <i class="rule-icon fas fa-users"></i>
+                        <h3 class="rule-title">İşbirliği</h3>
+                        <p class="rule-desc">Bilgi paylaşımını teşvik edin</p>
+                    </div>
+                    <div class="rule-item">
+                        <i class="rule-icon fas fa-graduation-cap"></i>
+                        <h3 class="rule-title">Öğrenme</h3>
+                        <p class="rule-desc">Sürekli öğrenmeye açık olun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Türk Hack Team. Tüm hakları saklıdır.</p>
+            <p class="signature">
+                <a href="https://www.turkhackteam.org/uye/watnea.1011624/" target="_blank" class="watnea-link">
+                    Watnea tarafından geliştirilmiştir
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Team Detail Overlays -->
+    <!-- Red Team Overlay -->
+    <div id="red-overlay" class="team-overlay">
+        <div class="team-detail">
+            <button class="close-btn" onclick="hideTeamDetail('red')">&times;</button>
+            <div class="detail-header">
+                <i class="detail-icon red-team fas fa-user-secret"></i>
+                <h2 class="detail-title">Red Team</h2>
+            </div>
+            <div class="detail-content">
+                <p class="detail-text">
+                    Red Team, sistemlerin güvenlik açıklarını gerçek dünya saldırılarına benzer senaryolarla test eder. 
+                    Etik hacker'lardan oluşan ekip, siber güvenlik alanında proaktif bir yaklaşım sergiler.
+                </p>
+                <p class="detail-text">
+                    <strong>Görevler:</strong> Penetrasyon testi, zafiyet analizi, sosyal mühendislik, fiziksel güvenlik testleri, red team operasyonları.
+                </p>
+                
+                <div class="roadmap-section">
+                    <h3 class="roadmap-title">Red Team Roadmap</h3>
+                    
+                    <div class="category">
+                        <div class="category-header" onclick="toggleCategory('red-network')">
+                            <h4 class="category-title"><i class="fas fa-network-wired"></i> Network & Protokoller</h4>
+                            <span class="toggle-icon" id="red-network-icon">▼</span>
+                        </div>
+                        <div class="category-content" id="red-network-content">
+                            <ul class="resource-list">
+                                <li><a href="https://www.turkhackteam.org/konular/http-anatomisi-status-codelari-ne-demek-istiyor-detayli.2076716/" target="_blank">HTTP Anatomisi ve Status Kodları</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/blue-team-stratejisi-bootcamp-bolum-3-network-dedigin-sinyaldir.2061477/" target="_blank">OSI Modeli ve Network Temelleri</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/routing-protokolleri-ve-network-topolojisi-1.2061848/" target="_blank">Routing Protokolleri</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="category">
+                        <div class="category-header" onclick="toggleCategory('red-web')">
+                            <h4 class="category-title"><i class="fas fa-bug"></i> Web Uygulama Güvenliği</h4>
+                            <span class="toggle-icon" id="red-web-icon">▼</span>
+                        </div>
+                        <div class="category-content" id="red-web-content">
+                            <ul class="resource-list">
+                                <li><a href="https://www.turkhackteam.org/konular/web-hacking-101-serisi-xss.2038468/" target="_blank">XSS - Cross-Site Scripting</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/web-hacking-101-serisi-sql-injection.2038449/" target="_blank">SQL Injection</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/web-hacking-101-serisi-command-injection.2038421/" target="_blank">Command Injection</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/ssrf-nedir.2075671/" target="_blank">SSRF - Server-Side Request Forgery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blue Team Overlay -->
+    <div id="blue-overlay" class="team-overlay">
+        <div class="team-detail">
+            <button class="close-btn" onclick="hideTeamDetail('blue')">&times;</button>
+            <div class="detail-header">
+                <i class="detail-icon blue-team fas fa-shield-alt"></i>
+                <h2 class="detail-title">Blue Team</h2>
+            </div>
+            <div class="detail-content">
+                <p class="detail-text">
+                    Blue Team, sistemlerin savunma ve güvenlik operasyonlarından sorumludur. 
+                    Saldırı tespit, önleme ve müdahale süreçlerini yönetir, sistemleri sürekli izler.
+                </p>
+                <p class="detail-text">
+                    <strong>Görevler:</strong> SIEM yönetimi, log analizi, güvenlik duvarı yapılandırması, olay müdahalesi, tehdit avcılığı.
+                </p>
+                
+                <div class="roadmap-section">
+                    <h3 class="roadmap-title">Blue Team Roadmap</h3>
+                    
+                    <div class="category">
+                        <div class="category-header" onclick="toggleCategory('blue-network')">
+                            <h4 class="category-title"><i class="fas fa-shield-virus"></i> Network Security</h4>
+                            <span class="toggle-icon" id="blue-network-icon">▼</span>
+                        </div>
+                        <div class="category-content" id="blue-network-content">
+                            <ul class="resource-list">
+                                <li><a href="https://www.turkhackteam.org/konular/blue-team-stratejisi-bootcamp-bolum-3-network-dedigin-sinyaldir.2061477/" target="_blank">Network Temelleri ve Güvenlik</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/basic-network-bilgisi-2.2059556/" target="_blank">TCP/IP Modeli</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="category">
+                        <div class="category-header" onclick="toggleCategory('blue-python')">
+                            <h4 class="category-title"><i class="fab fa-python"></i> Python & Otomasyon</h4>
+                            <span class="toggle-icon" id="blue-python-icon">▼</span>
+                        </div>
+                        <div class="category-content" id="blue-python-content">
+                            <ul class="resource-list">
+                                <li><a href="https://www.turkhackteam.org/konular/sifirdan-ileri-seviye-python-temeller-1.2076379/" target="_blank">Python Temeller</a></li>
+                                <li><a href="https://www.turkhackteam.org/konular/sifirdan-ileri-seviye-python-kosullu-ifader-donguler-2.2076465/" target="_blank">Koşullu İfadeler & Döngüler</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Team Overlays (Simplified) -->
+    <div id="design-overlay" class="team-overlay">
+        <div class="team-detail">
+            <button class="close-btn" onclick="hideTeamDetail('design')">&times;</button>
+            <div class="detail-header">
+                <i class="detail-icon design-team fas fa-palette"></i>
+                <h2 class="detail-title">Tasarım Ekibi</h2>
+            </div>
+            <div class="detail-content">
+                <p class="detail-text">
+                    Tasarım ekibi, topluluğun görsel kimliğini oluşturur ve kullanıcı deneyimini iyileştirir. 
+                    Modern ve kullanıcı dostu arayüzler tasarlar, marka kimliği çalışmaları yürütür.
+                </p>
+                <p class="detail-text">
+                    <strong>Görevler:</strong> UI/UX tasarım, grafik tasarım, marka kimliği, kullanıcı deneyimi iyileştirme, responsive tasarım.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="rnd-overlay" class="team-overlay">
+        <div class="team-detail">
+            <button class="close-btn" onclick="hideTeamDetail('rnd')">&times;</button>
+            <div class="detail-header">
+                <i class="detail-icon rnd-team fas fa-flask"></i>
+                <h2 class="detail-title">Ar-Ge Ekibi</h2>
+            </div>
+            <div class="detail-content">
+                <p class="detail-text">
+                    Araştırma ve Geliştirme ekibi, yeni teknolojileri inceler, prototipler geliştirir 
+                    ve topluluğun teknik altyapısını güçlendirir. Sürekli öğrenme ve inovasyon odaklı çalışır.
+                </p>
+                <p class="detail-text">
+                    <strong>Görevler:</strong> Teknoloji araştırması, prototip geliştirme, proof-of-concept, teknik inovasyon, yeni tool geliştirme.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="mod-overlay" class="team-overlay">
+        <div class="team-detail">
+            <button class="close-btn" onclick="hideTeamDetail('mod')">&times;</button>
+            <div class="detail-header">
+                <i class="detail-icon mod-team fas fa-gavel"></i>
+                <h2 class="detail-title">Moderasyon Ekibi</h2>
+            </div>
+            <div class="detail-content">
+                <p class="detail-text">
+                    Moderasyon ekibi, topluluğun düzenini sağlar, kuralları uygular ve 
+                    üyeler arasında sağlıklı iletişim ortamı oluşturur. Topluluk yönetimi ve çatışma çözümü konularında uzmanlaşmıştır.
+                </p>
+                <p class="detail-text">
+                    <strong>Görevler:</strong> Topluluk yönetimi, içerik moderasyonu, çatışma çözümü, kural uygulama, üye destek sistemi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
